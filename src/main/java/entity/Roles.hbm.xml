@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 29 oct 2021 9:43:00 by Hibernate Tools 4.3.5.Final -->
+<hibernate-mapping>
+    <class name="Roles" table="roles" catalog="tienda_online" optimistic-lock="version">
+        <id name="id" type="Integer">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+        <property name="rol" type="string">
+            <column name="rol" />
+        </property>
+        
+    </class>
+</hibernate-mapping>

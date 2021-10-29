@@ -1,0 +1,45 @@
+@charset "ISO-8859-1";
+#body{
+    background-color: lightblue;
+}
+    h2{color : blue;
+        text-align: center;
+        
+    } 
+   
+
+    .divs { 
+        display: flex;
+        align-items: center;
+        height: 300px;
+        width: 300px;
+        background: yellow;
+
+    }
+
+    #cajaPrincipal{
+        width: 350px;
+        height: 50%;
+        align-items: center;
+        margin: 150px auto;
+        border-radius: 24px;
+        border: 3px solid gray;
+        overflow: hidden;
+        align-content: center;
+        text-align: center;
+        background-color:whitesmoke;
+      
+    }
+
+    .input{
+        width: 200px;
+        height: 20px;
+    }
+
+    #botonLogin{
+        width: 200px;
+        height: 30px;
+        
+        background-color: turquoise;
+        font-size: 15px;
+    }
